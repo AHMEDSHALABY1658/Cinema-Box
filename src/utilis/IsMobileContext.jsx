@@ -10,7 +10,6 @@ export function IsMobileProvider({children}){
     const [isMobel,setIsMobile] = useState(null)
 
         const checkMobile = (e) =>{
-            console.log("yes")
             setIsMobile(e.matches)
         }
 

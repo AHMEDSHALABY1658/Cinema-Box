@@ -14,3 +14,20 @@ body{
     padding-inline: 1.25rem;
     padding-block: 1.5rem;
 }
+
+
+
+@media (max-width: 768px) {
+    .banner-text {
+        width: 90%;
+        padding-inline: 1rem;
+    }
+    .banner-text p {
+        padding-inline: 57px;
+    }
+    .banner-thumbs {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: center;
+    }
+}

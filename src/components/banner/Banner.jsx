@@ -23,7 +23,7 @@ export default function Banner() {
             swiper:thumbsSwiper
         }}
         autoplay={{
-            delay:3000,
+            delay:2500,
         }}
         loop={true}>
         
