@@ -2,7 +2,7 @@
 import img from "../../assets/ZHh05SkqR12n-gSqbidxZw.webp";
 import img2 from "../../assets/be192083-0dfc-3df5-bba2-67725ab6b0fc.jpeg";
 import img3 from "../../assets/image-3.jpg";
-import img4 from "../../assets/MV5BMTEwNTU2MjAwMDdeQTJeQWpwZ15BbWU3MDk2Njc2Njk@._V1_.jpg";
+import img4 from "../../assets/harry potter-3.webp";
 
 
 import React, { useContext,useState } from 'react'
@@ -72,7 +72,7 @@ export default function Banner() {
                 alt="" 
                 />
                     <div className="banner-text">
-                    <motion.h2 initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{ delay: 0.25, duration: 1 }} >300</motion.h2>
+                    <motion.h2 initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{ delay: 0.25, duration: 1 }} >harry potter</motion.h2>
                     <motion.p initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{ delay: 0.25, duration: 1 ,staggerChildren:0.25 }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sunt delectus earum beatae voluptas iste consequatur.</motion.p>
                     </div>
                 </div>

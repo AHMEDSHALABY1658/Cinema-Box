@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import img from "../../assets/last.png";
+import img from "../../assets/cinemaBox-removebg-preview.png";
 import{IsMobileContext} from"../../utilis/IsMobileContext"
 import { delay, motion } from "framer-motion";
 
